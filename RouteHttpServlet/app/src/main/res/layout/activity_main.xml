@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.esra.routehttpservlet.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="SourceLatLong"
+    android:id="@+id/src"
+    android:editable="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DestinationLatLong"
+        android:id="@+id/dst"
+        android:editable="true"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/outputTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CC0033"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</ScrollView>
+</LinearLayout>
